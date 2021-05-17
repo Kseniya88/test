@@ -1,0 +1,30 @@
+.aside {
+        margin: 96px 0 0 0;
+        padding: 103px 0 104px;
+        background-color: #222224;
+    
+    .aside__items {
+        color: #FBFBFB;
+        min-width: 360px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .aside__heading {
+        padding: 25px 0 16px;
+        text-align: center;
+    }
+    
+    .aside__description {
+        text-align: center;
+    }
+    
+    .aside__description-delivery {
+        padding: 0 30px 0 0;
+    }
+    
+    .aside__description-assurance {
+        padding: 0 0 0 30px;
+    }
+
+}

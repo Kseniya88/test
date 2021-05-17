@@ -1,0 +1,17 @@
+.content {
+    &__title {
+        color: #FFFFFF;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 19px;
+        font-weight: normal;
+        font-size: 13px;
+    }
+    
+    &__subtitle-pink {
+        display: block;
+        text-transform: uppercase;
+        color: $dark-pink;
+        font-size: 16px;
+    }
+}

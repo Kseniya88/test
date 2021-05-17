@@ -1,0 +1,18 @@
+.featured {
+    &__items-title {
+        display: flex;
+        justify-content: center;
+        margin: 96px 0 0;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+    }
+    
+    &__items-text {
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+        color: #9F9F9F;
+        padding: 6px 0 48px;
+    }
+}

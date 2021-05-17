@@ -1,0 +1,37 @@
+.items {
+    &__body {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    &__body-product {
+        background-color: #f8f8f8;
+        margin: 0 0 30px;
+    }
+    
+    &__text {
+        width: 340px;
+    }
+    
+    &__text-head {
+        text-transform: uppercase;
+        padding: 25px 0 13px 18px;
+        font-size: 13px;
+    }
+    
+    &__text-description {
+        padding: 0 0 18px 18px;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        color: #5D5D5D;
+    }
+    
+    &__text-price {
+        padding: 0 0 20px 18px;
+        font-size: 16px;
+        line-height: 19px;
+        color: #F16D7F;
+    }
+}

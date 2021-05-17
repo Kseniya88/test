@@ -1,0 +1,147 @@
+.header {
+    background-color: $dark-blue;
+
+    &__wrapper {
+        min-height: 75px;
+        @include flex-center-space-between()
+    }
+    
+    &__button-loupe {
+        background: transparent;
+        border: none;
+    }
+    
+    .button-loupe {
+        fill: #E8E8E8;
+    }
+    .button-loupe:hover,
+    .button-loupe:focus {
+        opacity: 0.5;
+    }
+    
+    .button-loupe:active {
+        opacity: 0.3;
+    }
+    
+    &-menu {
+        fill: #E8E8E8;
+    }
+    &-menu:hover,
+    &-menu:focus {
+        opacity: 0.5;
+    }
+    
+    &-menu:active {
+        opacity: 0.3;
+    }
+    
+    &__navigation {
+        width: 232px;
+        top: 100%;
+        right: 0;
+        background: white;
+        display: none;
+    }
+    
+    &__navigation-menu {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        color: #000000;
+        text-transform: uppercase;
+        padding: 37px 0 4px 34px;
+    }
+    
+    &-menu-heading {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        color: #6F6E6E;
+        text-transform: uppercase;
+        color: #F16D7F;
+        padding: 9px 0 12px 33px;
+    }
+    
+    &-menu-list-item {
+        display: block;
+        text-decoration: none;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        color: #6F6E6E;
+        padding: 0 0 11px 55px;
+    }
+    
+    &__menu-button:hover +.header__navigation,
+    &__menu-button:focus +.header__navigation {
+        display: block;
+    }
+    
+    &__navigation:hover {
+        display: block;
+    }
+    
+    &__menu-button {
+        background-color: transparent;
+        border: none;
+        margin: 0 34px 0 0;
+    }
+    
+    &__logo {
+        margin: 0 41px 0 0;
+    }
+    
+    &__person-link {
+        margin: 0 34px 0 0;
+    }
+    
+    &-registration {
+        fill: #E8E8E8;
+    }
+    
+    &-registration:hover,
+    &-registration:focus {
+        opacity: 0.5;
+    }
+    
+    &-registration:active {
+        opacity: 0.3;
+    }
+    
+    &__cart {
+        fill: #E8E8E8;
+    }
+    
+    &__cart {
+        position: relative;
+    }
+    
+    &__cart:before {
+        content: '5';
+        width: 15px;
+        height: 15px;
+        background: #F16D7F;
+        position: absolute;
+        right: -5px;
+        top: -17px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        color: #FFFFFF;
+        text-align: center;
+        border-radius: 20px;
+    }
+    
+    &-cart-link:hover,
+    &-cart-link:focus {
+        opacity: 0.5;
+    }
+    
+    &-cart-link:active {
+        opacity: 0.3;
+    }
+}
